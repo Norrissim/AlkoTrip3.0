@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/mainLayout"
+    p1:background="#ffffffff">
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/buttonLayout">
+        <Button
+            p1:text="Add Coctail"
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:id="@+id/button1"
+            p1:layout_weight="1"
+            p1:textSize="15dp" />
+        <Button
+            p1:text="Party Up"
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:id="@+id/button2"
+            p1:layout_weight="1"
+            p1:textSize="15dp" />
+        <Button
+            p1:text="Add Components"
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:id="@+id/button5"
+            p1:layout_weight="1"
+            p1:textSize="15dp" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/ingridTitleLayout">
+        <TextView
+            p1:text="Your Components"
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:id="@+id/textView2"
+            p1:includeFontPadding="false"
+            p1:gravity="center"
+            p1:textSize="30dp"
+            p1:textColor="#ff000000" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:layout_width="match_parent"
+        p1:layout_height="35dp"
+        p1:id="@+id/comp1"
+        p1:background="#ffffffff">
+        <TextView
+            p1:text="Vodka"
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:id="@+id/name1"
+            p1:layout_weight="0.4"
+            p1:textSize="20dp"
+            p1:textColor="#ff000000"
+            p1:background="#ffffffff"
+            p1:gravity="center_vertical" />
+        <Button
+            p1:text="&lt;"
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:id="@+id/less1"
+            p1:layout_weight="1"
+            p1:onClick="ButtonClickLess" />
+        <EditText
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:id="@+id/val1"
+            p1:layout_weight="1"
+            p1:textColor="#ffffffff"
+            p1:background="#ffffffff"
+            p1:autoText="true" />
+        <Button
+            p1:text="&gt;"
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:id="@+id/more1"
+            p1:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        p1:orientation="horizontal"
+        p1:id="@+id/comp2"
+        p1:background="#ffffffff"
+        p1:layout_width="match_parent"
+        p1:layout_height="35dp">
+        <TextView
+            p1:text="Beer"
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:id="@+id/name2"
+            p1:layout_weight="0.4"
+            p1:textSize="20dp"
+            p1:textColor="#ff000000"
+            p1:background="#ffffffff"
+            p1:gravity="center_vertical" />
+        <Button
+            p1:text="&lt;"
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:id="@+id/less2"
+            p1:layout_weight="1" />
+        <EditText
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:id="@+id/val2"
+            p1:layout_weight="1"
+            p1:textColor="#ffffffff"
+            p1:background="#ffffffff" />
+        <Button
+            p1:text="&gt;"
+            p1:layout_width="match_parent"
+            p1:layout_height="match_parent"
+            p1:id="@+id/more2"
+            p1:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>

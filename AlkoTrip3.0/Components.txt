@@ -1,0 +1,6 @@
+﻿Beer
+8
+Vodka
+40
+Juice
+0

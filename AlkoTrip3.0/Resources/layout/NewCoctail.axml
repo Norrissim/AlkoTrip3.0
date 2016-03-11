@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <Button
+            android:text="Back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/backFromNewCoctail"
+            android:layout_weight="1" />
+        <Button
+            android:text="Create New Coctail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/CreateNewCotail"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/addingTextView"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Adding New Coctail"
+            android:textSize="30dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3">
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/imageView1"
+            android:layout_weight="0.6" />
+        <Button
+            android:text="Add photo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/addPhoto"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Name of coctail :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView3"
+            android:layout_weight="0.8" />
+        <EditText
+            android:inputType="textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editNameCoct"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:textColor="@color/theme_custom_background" />
+        <TextView
+            android:text="Description :"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView2"
+            android:layout_weight="0.9"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/linearLayout6">
+        <EditText
+            android:inputType="textMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editDiscription"
+            android:background="@android:color/background_light"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:textColor="@color/theme_custom_background" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout8">
+        <Button
+            android:text="Add Existed Component"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/addCompExisted"
+            android:layout_weight="1"
+            android:textSize="12dp"
+            android:layout_marginLeft="10dp" />
+        <Button
+            android:text="Add New Component"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/addCompNew"
+            android:layout_weight="1"
+            android:textSize="12dp"
+            android:layout_marginRight="10dp" />
+    </LinearLayout>
+    <ScrollView
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollLayout2" />
+    </ScrollView>
+</LinearLayout>
